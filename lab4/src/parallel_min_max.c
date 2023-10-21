@@ -27,7 +27,7 @@ int main(int argc, char **argv) {
   int timeout = -1; // Переменная для хранения таймаута
 
   while (true) {
-    int current_optind = optind ? optind : 1;
+  //  int current_optind = optind ? optind : 1;
 
     static struct option options[] = {
         {"seed", required_argument, 0, 0},
